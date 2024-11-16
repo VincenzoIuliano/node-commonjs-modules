@@ -8,4 +8,4 @@ function hobbies (hobbyOne, hobbyTwo, hobbyThree) {
 
 hobbies('nuoto','calcio','pallavolo')
 
-module.export = hobbies
+module.exports = hobbies
