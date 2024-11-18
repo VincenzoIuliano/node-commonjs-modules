@@ -1,8 +1,21 @@
-function hobbies (hobbyOne, hobbyTwo, hobbyThree) {
-    let myHobbies = { 
+function createHobbies (hobbyOne, hobbyTwo, hobbyThree) {
+    return { 
         'hobbies' : [hobbyOne, hobbyTwo, hobbyThree]
     }
-    console.log(myHobbies);  
 }
 
-module.exports = hobbies
+console.log(createHobbies('Lego','Naruto','Fifa'));
+
+
+module.exports = createHobbies
+
+
+// function createHobbies (...params) {
+//     return { 
+//         'hobbies' : [...params]
+//     }
+// }
+
+// console.log(createHobbies('Lego','Naruto'));
+
+// con ...params non do restrizioni al numero dei parametri che ricevo 

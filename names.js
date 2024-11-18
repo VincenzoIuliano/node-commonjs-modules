@@ -1,6 +1,7 @@
-function name (firstName, lastName) {
-    let person = { firstName , lastName }
-    console.log(person)
+function createName (firstName, lastName) {
+    return { firstName , lastName }
 }
 
-module.exports = name
+// console.log(createName('Luca','Luigi'));
+
+module.exports = createName
